@@ -1,2 +1,3 @@
 # trabalhocap7fase4
 primeiro projeto com html,css e bootstrap.
+ Em um trabalho para faculdade deveríamos fazer o começo do nosso site de gerenciamento de finança, foquei na proposta de um design mais alegre. Me inspirando nas telas de jogos antigos, tentei deixar o visual menos serio e mais agradável de navegar, pois para mim gerenciar as finanças não é a parte mais legal do dia, então pensei em um site que fosse leve  e pratico de navegar, projeto em andamento...
