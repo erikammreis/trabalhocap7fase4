@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2? família= Roboto:wght@300;400;500;700 & display=swap');
+
+* {
+  font-family: 'Roboto', sem serifa;
+}
+
+body {
+  background-color: #F99132;
+}
+
+p {
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.progress {
+  display: flex !important;
+  height: 0.4rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  z-index: 0;
+}
+
+#linha {
+  height: 0.4rem;
+  width: 34%;
+  display: inline-flex;
+  justify-content: flex-end;
+
+}
+
+.bolinha2 {
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  display: inline-flex;
+  position: absolute;
+  z-index: 5;
+  margin-top: -3px;
+  text-align: right;
+
+}
+
+#linha2 {
+  height: 0.4rem;
+  width: 37%;
+  display: inline-flex;
+  justify-content: flex-end;
+
+}
+
+.bolinha3 {
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  display: inline-flex;
+  position: absolute;
+  z-index: 5;
+  margin-top: -3px;
+  text-align: right;
+
+}
+
+.bg-success {
+  background-color: #ff7b00 !important;
+  z-index: 2;
+  align-items: flex-end;
+  border: #ffffff;
+  border: 0.1vh solid;
+
+}
+
+.bolinha {
+  width: 12px;
+  height: 12px;
+  background-color: #ff7b00;
+  border-radius: 25px;
+  border: #ffffff;
+  border: 0.1vh solid;
+  display: flex;
+  position: absolute;
+
+}
+
+#login {
+  position: relative;
+  align-items: flex-start;
+  display: inline;
+}
+
+#coluna {
+  align-content: center;
+  justify-content: center;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#um {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+  z-index: 10;
+  position: relative;
+
+
+}
+
+#titulo {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+
+}
+
+.digita {
+  width: 100%;
+  position: center;
+  padding: 2%;
+  box-sizing: border-box;
+  border: 3px solid #ff8c21a2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 20px;
+  background-color: #ff8c219a;
+  box-shadow: 3px 4px 5px 1px #a55913af inset;
+}
+
+#email:focus,
+#senha:focus,.digita:focus {
+  border: 3px solid rgba(216, 216, 216, 0.637);
+  box-shadow: 10px 10px 5px 1px rgba(122, 122, 122, 0.158) inset;
+  position: relative;
+
+}
+
+#enviar {
+  font-weight: 500;
+  background-color: white;
+  color: #ff8c21;
+  width: 15vh;
+  height: 4vh;
+  position: relative;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: #ff8c21;
+  box-shadow: 3px 3px 3px #ff8512;
+
+
+}
+
+#enviar {
+  transition-duration: 0.4s;
+}
+
+#enviar:hover {
+  background-color: #ff8c21;
+  /* Green */
+  color: white;
+  position: center;
+  padding: 2%;
+  box-sizing: border-box;
+  border: 3px solid #ffffff7e;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  box-shadow: 10px 10px 10px #363636a6;
+  position: relative;
+  border-radius: 5%;
+
+}
+
+.informa {
+  color: #ffffff;
+
+  font-size:1rem;
+  margin-top: 1vh;
+  display: inline-flex;
+
+}
+
+#infor {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+  z-index: 6;
+  font-size: 0.8rem;
+  font-weight: 400;
+  position: relative;
+}
+
+#esqueci {
+  position: relative;
+  color: #ffffff;
+}
+
+.cadastro {
+  color: #ffffff;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.cadastro:hover {
+  color: #ffffff;
+
+}
+
+
+.form-check-input {
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+  vertical-align: top;
+  background-color: #ff8c21;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid rgba(0,0,0,.25);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-check .form-check-input {
+  float: none !important;
+  margin-left:none;
+}
+.form-check-input:checked {
+  background-color: #ffa538;
+  border-color: #ffffff;
+}
+ a{
+  color: #ffffff;
+}
+a:hover{
+  color: #ff7b00;
+}
+
+
+#volpro {
+  display: inline-flex;
+  justify-content: space-between;
+}
